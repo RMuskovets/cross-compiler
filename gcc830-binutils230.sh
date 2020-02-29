@@ -19,4 +19,4 @@ mkdir build-gcc
 cd build-gcc
 ../gcc-8.3.0/configure --target=$TARGET --prefix="$PREFIX" --disable-nls --enable-languages=c,c++ --without-headers
 make
-make install
+# make install
